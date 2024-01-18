@@ -1,6 +1,7 @@
 name: Erlang CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [ develop-3.0 ]
   pull_request:
